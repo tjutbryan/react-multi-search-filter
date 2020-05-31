@@ -1,0 +1,47 @@
+body {
+  background: #000000;
+  color: #fd0808;
+}
+.title {
+  margin-left: 25px;
+}
+input {
+  margin-left: 25px;
+  padding: 9px;
+  font-size: 20px;
+  border: none;
+  background: rgb(30,30,30);
+  color: rgb(255, 255, 255);
+  border-radius: 3px;
+}
+::-webkit-input-placeholder {
+   color: #ffc952;
+}
+table {
+  margin-top: 15px;
+  margin-left: 25px;
+}
+th {
+  text-align: left;
+  color: #fc0404;
+  border-bottom: 1px solid #ffc952;
+  font-size: 18px;
+}
+td {
+  color: #f9fcfd;
+}
+.country {
+  width: 350px;
+}
+.capital {
+  width: 200px;
+}
+.region {
+  width: 200px;
+}
+.subregion {
+  width: 200px;
+}
+.lat, .lon {
+  width: 100px;
+}
